@@ -1,7 +1,7 @@
 /* style.css */
 
 body{
-  background-color:#0f609c;
+  background-color:#001030;
   border-left:25px solid #b2daf8;
   border-right:25px solid #b2daf8;
   border-top: 15px solid #083454;
@@ -15,13 +15,14 @@ div#logo{
 h1{
   text-align:center;
   font-family: Verdana, Geneva, sans-serif;
+  color:#F0F8FF;
 }
 h2{
   text-align:center;
   border-top:2px solid white;
   padding: 15px;
-  margin: 15px 0px 0px 0px;
-  color: #aaaaff;
+  margin: 15px 5px 0px 5px;
+  color: #F0F8FF;
   font-family: Verdana, Geneva, sans-serif;
   background-color: rgba(0,0,0,0.5); /* black but 50% opacity */
   border-radius: 50px 50px 0px 0px; /* rounded top corners */
