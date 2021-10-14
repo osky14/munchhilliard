@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.time.LocalDate;
 
 /**
   describe this class
@@ -11,17 +12,16 @@ public class User
     private int reviewCount;
     private double reviewScoreTotal;
     private int totalLikes;
-    private String recentLoginDay;
+    private LocalDate lastLogin;
     private int userAge;
     private String userName;
     private String name;
-    private String birthday;
+    private LocalDate birthday;
     private String gender;
     private String userEmail;
-    private String affiliation;
     private String location;
-    // add more
     private int followers;
+    // add more??
 
     /**
       describe this constructor
@@ -29,44 +29,17 @@ public class User
     public User()
     {
         // assign default values
-        reviewCount = 0;
-        reviewScoreTotal = 0;
-        name = "none";
-        birthday = "Unknown";
-        totalLikes = 0;
-        this.recentLoginDay = "";
-        userAge = 0;
-        userEmail = "none";
-        affiliation = "none";
-        followers = 0;
-        location = "Unknown";
+        // TO DO
     }
 
     // accessors and mutators here
-
-    /**
-      sets the user's affiliation
-      @param _affiliation provides the users affiliation
-    */
-    public void setAffiliation(_affiliation){
-     
-      affiliation = _affiliation;
-    }
-    /**
-      gets the user's affiliation
-      @return affiliation which is the user's affiliation
-     */
-    public String getAffiliation(){
-      
-     return affiliation; 
-    }
   
     /**
       sets the users's email
       @param _userEmail provides the user's email
     */
     public void setUserEmail(String _userEmail){
-      userEmail = _userEmail;
+      // TO DO
     }
   
    /**
@@ -74,7 +47,7 @@ public class User
       @return userEmail the user's email
     */
     public String getUserEmail(){
-      return userEmail;
+      return ""; // TO DO
     }
   
     /**
@@ -84,7 +57,7 @@ public class User
     */
   
      public void setLocation(String _location){
-      location = _location;
+      // TO DO
     }
   
     /**
@@ -93,28 +66,21 @@ public class User
     @return the user's location
     
     */
-  
      public String getLocation(){
-      return location;
+      return ""; // TO DO
     }
-
   
-    /**
-      describe each method
-    */
-   
-   
-     
+  
     //returns the total number of likes
     public int getTotalLikes(){
-      return totalLikes;
+      return 0; // TO DO
     }
 
   
     //sets the number of total likes
     //@param int _totalLikes
     public setTotalLikes(_totalLikes){
-      totalLikes = _totalLikes;
+      // TO DO
     }
   
     /**
@@ -122,7 +88,7 @@ public class User
     @return userAge which is the users age
     */
     public int getUserAge(){
-      return userAge;
+      return 0; // TO DO
     }
   
     /**
@@ -130,13 +96,12 @@ public class User
     @param String _gender
     */ 
     public void setUserGender(String _gender){
-      gender = _gender;
+      // TO DO
     }
   
     public double getAverageReview()
     {
-      // needs completed
-      return 0.0;
+      return 0.0; // TO DO
     }
   
     /**
@@ -145,7 +110,7 @@ public class User
     */
     public String getUserName()
     {
-      return userName;
+      return ""; // TO DO
     }
   
      /**
@@ -154,7 +119,7 @@ public class User
     */
     public String userGender();
     {
-      return gender;
+      return ""; // TO DO
     }
 
     /**
@@ -162,7 +127,7 @@ public class User
     */
     public void setFavRestaurant(Restaurant _restaurant)
     {
-      favRestaurant = _restaurant;
+      // TO DO
     }
   
     /**
@@ -171,7 +136,7 @@ public class User
     */
     public void setUserName(String _userName)
     {
-      userName = _userName;
+      // TO DO
     }
   
   
@@ -181,7 +146,7 @@ public class User
     */
     public void setUserAge(int _age)
     {
-      userAge = _age;
+      // TO DO
     }
   
 
@@ -192,7 +157,7 @@ public class User
     */
     public void setName(String _name)
     {
-      name = _name;
+      // TO DO
     }
     
     /**
@@ -202,34 +167,30 @@ public class User
     */
     public String getName()
     {
-      return name;
+      return ""; // TO DO
     }
   
     /**
-      getrecentLoginDay()
       Accesses the last login day of the user.
       @return the last login day of the user.
     */
-    public String getrecentLoginDay()
+    public LocalDate getLastLogin()
     {
-      return recentLoginDay;
+      return null; // TO DO
     }
   
     /**
-      setRecentLoginDay()
-      Sets the last login day of the user.
-      @param _recentLoginDay last login day of the user.
+      Sets the last login of the user to the current date/time
     */
-    public void setRecentLoginDay(String _recentLoginDay){
-      this.recentLoginDay = _recentLoginDay;
+    public void setLastLogin(){
+      // TO DO
     }
   
     /**
-      setBirthday(String _birthday)
       Sets the user's birthday
     */
-    public void setBirthday(String _birthday){
-      bithday =  _birthday;
+    public void setBirthday(LocalDate _birthday){
+      // TO DO
     }
   
     /**
@@ -237,8 +198,8 @@ public class User
     Accesses the user's birthday
     @return the user's birthday
     */
-    public String getBirthday(){
-      return birthday;
+    public LocalDate getBirthday(){
+      return null; // TO DO
     }
   
     /**
@@ -247,7 +208,7 @@ public class User
       @param String email which is the user's email
     */
     public void setUserEmail(String email){
-      userEmail = email;
+      // TO DO
     }
     
     /**
@@ -256,7 +217,7 @@ public class User
       @return the user's email
     */
     public String getUserEmail(){
-      return userEmail;
+      return ""; // TO DO
     }
       
     /**
@@ -265,7 +226,7 @@ public class User
       @return the user's followers
     */
     public int getFollowers(){
-      return followers;
+      return 0; // TO DO
     }
 
     /**
@@ -274,6 +235,6 @@ public class User
       @param String email which is the user's email
     */
     public void setFollowers(String _followers){
-      followers = _followers;
+      // TO DO
     }
 }
