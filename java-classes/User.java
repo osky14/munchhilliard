@@ -36,18 +36,18 @@ public class User
   
     /**
       sets the users's email
-      
+      @param String the users Email
     */
     public void setUserEmail(String _userEmail){
-      // TO DO
+      userEmail = _userEmail;
     }
   
    /**
       returns the users's email
-      
+       @return returns the users email
     */
     public String getUserEmail(){
-      return ""; // TO DO
+      return userEmail;
     }
   
     /**
