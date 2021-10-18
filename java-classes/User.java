@@ -36,7 +36,7 @@ public class User
   
     /**
       sets the users's email
-      @param _userEmail provides the user's email
+      
     */
     public void setUserEmail(String _userEmail){
       // TO DO
@@ -44,7 +44,7 @@ public class User
   
    /**
       returns the users's email
-      @return userEmail the user's email
+      
     */
     public String getUserEmail(){
       return ""; // TO DO
@@ -53,7 +53,7 @@ public class User
     /**
       setUserLocation(String location)
       Sets the user's location 
-      @param String location which is the user's location
+      
     */
   
      public void setLocation(String _location){
@@ -63,7 +63,7 @@ public class User
     /**
     getLocation()
     Acesses the user location 
-    @return the user's location
+    
     
     */
      public String getLocation(){
@@ -78,14 +78,14 @@ public class User
 
   
     //sets the number of total likes
-    //@param int _totalLikes
+    //
     public setTotalLikes(_totalLikes){
       // TO DO
     }
   
     /**
     return the users age
-    @return userAge which is the users age
+    
     */
     public int getUserAge(){
       return 0; // TO DO
@@ -93,7 +93,7 @@ public class User
   
     /**
     set the users gender
-    @param String _gender
+    
     */ 
     public void setUserGender(String _gender){
       // TO DO
@@ -106,7 +106,7 @@ public class User
   
     /**
       Returns the user name
-      @return userName which is the user's name
+      
     */
     public String getUserName()
     {
@@ -115,7 +115,7 @@ public class User
   
      /**
       Returns the gender of the user
-      @return gender which is the user's gender
+      
     */
     public String userGender();
     {
@@ -132,7 +132,7 @@ public class User
   
     /**
       Sets the user's name
-      @param String _userName
+      
     */
     public void setUserName(String _userName)
     {
@@ -142,7 +142,7 @@ public class User
   
     /**
       Sets the age of the user
-      @param int _age
+      
     */
     public void setUserAge(int _age)
     {
@@ -153,7 +153,7 @@ public class User
     /**
       setName(String _name)
       Sets the user's name to a string.
-      @param _name the name of the user
+      
     */
     public void setName(String _name)
     {
@@ -163,7 +163,7 @@ public class User
     /**
       getName()
       Accesses the name of the user.
-      @return the name of the user
+      
     */
     public String getName()
     {
@@ -172,7 +172,7 @@ public class User
   
     /**
       Accesses the last login day of the user.
-      @return the last login day of the user.
+      
     */
     public LocalDate getLastLogin()
     {
@@ -196,7 +196,7 @@ public class User
     /**
     getBirthday()
     Accesses the user's birthday
-    @return the user's birthday
+    
     */
     public LocalDate getBirthday(){
       return null; // TO DO
@@ -205,7 +205,7 @@ public class User
     /**
       setUserEmail(String email)
       Sets the user's email
-      @param String email which is the user's email
+      
     */
     public void setUserEmail(String email){
       // TO DO
@@ -214,7 +214,7 @@ public class User
     /**
       getUserEmail()
       Accesses the user's email
-      @return the user's email
+      
     */
     public String getUserEmail(){
       return ""; // TO DO
@@ -223,7 +223,7 @@ public class User
     /**
       getFollowers()
       Returns the user's followers.
-      @return the user's followers
+      
     */
     public int getFollowers(){
       return 0; // TO DO
@@ -232,7 +232,7 @@ public class User
     /**
       setfollowers(int _followers)
       Sets the user's followers
-      @param String email which is the user's email
+      
     */
     public void setFollowers(String _followers){
       // TO DO
