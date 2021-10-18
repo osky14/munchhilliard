@@ -30,7 +30,7 @@ public class Restaurant
   
     /**
       Returns the type of food in the restaurant
-      @return typeOfFood which is the type of food in the restaurant
+      
     */
     public String getTypeOfFood()
     {
@@ -39,7 +39,7 @@ public class Restaurant
   
     /**
       Sets the type of food in the restaurant
-      @param _typeOfFood the type of food in the restaurant
+      
     */
     public void setTypeOfFood(String _typeOfFood)
     {
@@ -48,7 +48,7 @@ public class Restaurant
     
     /**
       Sets the resturant's address
-      @param String _address
+      
     */
     public void setAddress(String _address)
     {
@@ -57,7 +57,7 @@ public class Restaurant
   
      /**
       Returns the resturant's address
-      @return String address which is the address of the resturant
+      
     */
   
     public String getAddress(){
@@ -78,7 +78,7 @@ public class Restaurant
   
     /**
     return the star rating
-    @return starRating
+    
     */
     public int getStarRating()
     {
@@ -87,7 +87,7 @@ public class Restaurant
     
     /** 
     set the star rating
-    @param starRating
+    
     *// 
     public void setStarRating(int _starRating)
     {
@@ -97,7 +97,7 @@ public class Restaurant
     /**
       setTypeOfFood(String foodType)
       Sets the type of food that the restaurant serves
-      @param String foodType the type of food the restaurant serves
+      
     */
     public void setTypeOfFood(String foodType)
     {
@@ -107,7 +107,7 @@ public class Restaurant
     /**
       getTypeOfFood()
       Accesses and returns the type of food the restaurant serves
-      @return typeOfFood the type of food the restaurant serves
+      
     */
     public String getTypeOfFood()
     {
