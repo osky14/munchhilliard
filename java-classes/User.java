@@ -223,18 +223,19 @@ public class User
     /**
       getFollowers()
       Returns the user's followers.
+      @return int of followers
       
     */
     public int getFollowers(){
-      return 0; // TO DO
+      return followers;
     }
 
     /**
       setfollowers(int _followers)
       Sets the user's followers
-      
+      @param int of followers
     */
     public void setFollowers(String _followers){
-      // TO DO
+      followers = _followers;
     }
 }
