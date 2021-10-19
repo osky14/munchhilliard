@@ -71,16 +71,16 @@ public class User
     }
   
   
-    //returns the total number of likes
+    //returns the total number of likes ----------------------------------------------------------------------
     public int getTotalLikes(){
-      return 0; // TO DO
+      return totalLikes;
     }
 
   
     //sets the number of total likes
     //
-    public setTotalLikes(_totalLikes){
-      // TO DO
+    public void setTotalLikes(_totalLikes){
+      totalLikes = _totalLikes;
     }
   
     /**
