@@ -235,7 +235,7 @@ public class User
       Sets the user's followers
       @param int of followers
     */
-    public void setFollowers(Int _followers){
+    public void setFollowers(int _followers){
       followers = _followers;
     }
 }
