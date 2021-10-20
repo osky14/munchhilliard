@@ -70,15 +70,19 @@ public class User
       return ""; // TO DO
     }
   
-  
-    //returns the total number of likes ----------------------------------------------------------------------
+     /**
+        returns the total number of likes
+        @return returns the total amount of likes for the user <3
+    */
     public int getTotalLikes(){
       return totalLikes;
     }
 
   
-    //sets the number of total likes
-    //
+     /**
+        sets the total number of likes
+        @param int total like amount <3
+    */
     public void setTotalLikes(_totalLikes){
       totalLikes = _totalLikes;
     }
