@@ -61,6 +61,13 @@ public class FoodReview
     public void setnumOfHeartLikes(int newnumOfHeartLikes){  
     this.numOfHeartLikes = newnumOfHeartLikes;
     } 
+    /** 
+      returns the number of heart likes on the review 
+      @return numOfHeartLikes - Total number of HeartLikes
+    */
+    public int getHeartLikes(){
+      return numOfHeartLikes;
+    }
   
   
   
