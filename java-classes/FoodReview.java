@@ -108,17 +108,28 @@ public class FoodReview
       retuns the number of dislikes
       
     */
-    public int getDislikes()
-    {
-      return 0; // TO DO
-    }
-  
+   /**
+   * returns number of Dislikes 
+   *
+   * @return number of dislikes
+   *
+   *
+   */
+   public int getDislikes(){
+    return numDislikes; 
+  }
+
     /**
-      
-    */ 
+    *
+    *adds one to number of dislikes
+    *
+    *
+    *
+    */
     public void addDislike(){
-      // TO DO
-    } 
+      numDislikes += 1;
+  }
+
     
     /**
     returns the number of Sad Likes
