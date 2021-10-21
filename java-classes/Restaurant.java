@@ -7,7 +7,7 @@ public class Restaurant
     private int reviewCount;
     private double reviewScoreTotal;
     private String name;
-    private int totalCustomers;
+    private int buildingCapacity;
     private int starRating;
     private String address;
     private String location;
@@ -25,13 +25,26 @@ public class Restaurant
         // TO DO
 
     }
+  
+    
+    /**
+      sets building capacity for the restaurant
+      @param has a capacity parameter
+    */
+    public void setBuildingCapacity(int capacity){
+      buildingCapacity = capacity; 
+    }
 
     // accessors and mutators here
   
     /**
-      Returns the type of food in the restaurant
-      
+      Returns building capacity in the restaurant
+      @return buildingCapacity
     */
+  
+    public int getBuildingCapacity(){
+      return buildingCapacity; 
+    }
     public String getTypeOfFood()
     {
       return ""; // TO DO
