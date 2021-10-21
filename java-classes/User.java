@@ -104,13 +104,13 @@ public class User
       return 0.0; // TO DO
     }
   
-    /**
-      Returns the user name
-      
+   /**
+      returns the user's username
+       @return returns the users username
     */
     public String getUserName()
     {
-      return ""; // TO DO
+      return userName;
     }
   
      /**
@@ -131,12 +131,12 @@ public class User
     }
   
     /**
-      Sets the user's name
-      
+      sets the users's username
+      @param String the users username
     */
     public void setUserName(String _userName)
     {
-      // TO DO
+      this.userName = _userName;
     }
   
   
