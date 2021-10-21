@@ -54,15 +54,22 @@ public class FoodReview
       // TO DO
     }
     
-    /**
-      returns the number of heart likes on the review
-      
+    /** 
+      sets the number of heart likes on the review
+      @Param int newnumOfHeartLikes - first numerical value for the numOfHeartLikes
     */
-    public int getHeartLikes()
-    {
-      
-      return 0; // TO DO
+    public void setnumOfHeartLikes(int newnumOfHeartLikes){  
+    this.numOfHeartLikes = newnumOfHeartLikes;
+    } 
+    /** 
+      returns the number of heart likes on the review 
+      @return numOfHeartLikes - Total number of HeartLikes
+    */
+    public int getHeartLikes(){
+      return numOfHeartLikes;
     }
+  
+  
   
     /**
       adds one heart like for the review
