@@ -74,8 +74,8 @@ public class FoodReview
     /**
       adds one heart like for the review
     */ 
-    public void addHeartLike(){
-      // TO DO
+    public void addHeartLike(int addNumOfHearts){
+       numOfHeartLikes= numOfHeartLikes+addNumOfHearts;
     } 
   
     /**
