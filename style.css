@@ -12,6 +12,12 @@ body{
 div#logo{
   text-align:center;
 }
+div#reviewContainer{
+  display:inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+}
 h1{
   text-align:center;
   font-family: Verdana, Geneva, sans-serif;
