@@ -73,10 +73,12 @@ public class FoodReview
   
     /**
       adds one heart like for the review
+      *@param number of heart likes being added
     */ 
-    public void addHeartLike(){
-      // TO DO
+    public void addHeartLike(int addNumOfHearts){
+       numOfHeartLikes= numOfHeartLikes+addNumOfHearts;
     } 
+    
   
     /**
       returns the number of funny likes
