@@ -82,19 +82,19 @@ public class FoodReview
   
     /**
       returns the number of funny likes
-      
+      @return numFunnyLikes - returns the total number of funny likes
     */  
     public int getFunnyLikes()
     {
       
-      return 0; // TO DO
+      return numFunnyLikes;
     }
   
     /**
-      
+    * adds one funny like to the food review
     */ 
     public void addFunnyLike(){
-      // TO DO
+      numFunnyLikes +=1;
     } 
 
     /**
