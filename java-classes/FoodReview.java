@@ -39,19 +39,21 @@ public class FoodReview
 
     /**
       returns the number of useful likes on the review
+      @return UsefulLikes - Total number of UsefulLikes
       
     */
     public int getUsefulLikes()
     {
       
-      return 0; // TO DO
+      return UsefulLikes;
     }
   
     /**
       adds one useful like for the review
+      
     */ 
-    public void addUsefulLike(){
-      // TO DO
+    public void addUsefulLikes(int _UsefulLikes){
+      UsefulLikes = _UsefulLikes;
     }
     
     /** 
