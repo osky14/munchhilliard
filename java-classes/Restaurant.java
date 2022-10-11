@@ -13,11 +13,11 @@ public class Restaurant
     private String location;
     private String typeOfFood; 
 
-      // add more?
 
 
     /**
       describe this constructor
+      @param
     */
     public Restaurant(String _name)
     {
@@ -27,105 +27,7 @@ public class Restaurant
     }
   
     
-    /**
-      sets building capacity for the restaurant
-      @param has a capacity parameter
-    */
-    public void setBuildingCapacity(int capacity){
-      buildingCapacity = capacity; 
-    }
-
-    // accessors and mutators here
-  
-    /**
-      Returns building capacity in the restaurant
-      @return buildingCapacity
-    */
-  
-    public int getBuildingCapacity(){
-      return buildingCapacity; 
-    }
-    public String getTypeOfFood()
-    {
-      return ""; // TO DO
-    }
-  
-    /**
-      Sets the type of food in the restaurant
-      
-    */
-    public void setTypeOfFood(String _typeOfFood)
-    {
-      // TO DO
-    }
-    
-    /**
-      Sets the resturant's address
-      
-    */
-    public void setAddress(String _address)
-    {
-      // TO DO
-    }
-  
-     /**
-      Returns the resturant's address
-      
-    */
-  
-    public String getAddress(){
-      return ""; // TO DO
-
-    }
-
-
-    /**
-      describe each method
-    */
-    public double getAverageReview()
-    {
-      // needs completed
-      return 0.0; // TO DO
-    }
-
-  
-    /**
-    return the star rating
-    
-    */
-    public int getStarRating()
-    {
-      return 0; // TO DO
-    }
-    
-    /** 
-    set the star rating
-    
-    *// 
-    public void setStarRating(int _starRating)
-    {
-      // TO DO
-    }
-  
-    /**
-      setTypeOfFood(String foodType)
-      Sets the type of food that the restaurant serves
-      
-    */
-    public void setTypeOfFood(String foodType)
-    {
-      // TO DO
-    }
-  
-    /**
-      getTypeOfFood()
-      Accesses and returns the type of food the restaurant serves
-      
-    */
-    public String getTypeOfFood()
-    {
-      return ""; // TO DO
-    }
+    // accessor and mutator methods go here
 
 }
 
