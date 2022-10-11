@@ -23,7 +23,7 @@ public class FoodReview
     
     /**
       describe this constructor
-      @param
+      @param _reviewScore sets the review score of this review
       @param
       @param
       @param
@@ -33,8 +33,24 @@ public class FoodReview
     {
         // set instance var values using parameters
         // TO DO
+        reviewScore = _reviewScore;
     }
 
     // accessors and mutators go here
-
+    /**
+      double getReviewScore()
+      accessor method for reviewScore
+      @return get the review score of this review
+    */
+    public double getReviewScore(){
+      return reviewScore;
+    }
+    /**
+      void setReviewScore(double _reviewScore)
+      mutator method for reviewScore
+		  @param _reviewScore sets the review score of this review
+    */
+    public void setReviewScore(double _reviewScore){
+      reviewScore = _reviewScore;
+    }
 }
