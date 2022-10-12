@@ -40,49 +40,18 @@ public class FoodReview
         // set instance var values using parameters
         // TO DO
     }
-
+    
+    
     public Restaurant getRestaurant(){
       return restaurant;
     }
+    
     
     public void setRestaurant(String _retaurant){
       restaurant = resaurant;
     }
   
-    public double getReviewScore(){
-      return reviewScore;
-    }
     
-    public void setReviewScore(double _reviewScore){
-      reviewScore = _reviewScore;
-    }
-  
-    public String getReviewTitle(){
-      return reviewTitle;
-    }
-  
-    public void setReviewTitle(String _reviewTitle){
-      reviewTitle = _reviewTitle;
-    }
-  
-    public String getReviewBody(){
-      return reviewBody;
-    }
-  
-    public void setReviewBody(String _reviewBody){
-      reviewBody = _reviewBody;
-    }
-  
-    public User getUser(){
-      return user;
-    }
-  
-    public void setUser(User _user){
-      user = _user;
-    }
-
-  
-  
   
   
    
