@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 
 /**
-  describe this class
+  this class allows a user to add or modify reviews for a restaurant.
 */
 public class FoodReview
 {
@@ -18,23 +18,27 @@ public class FoodReview
     private int numFunnyLikes; // similar to Like button, but says "Funny"
     private int numCoolLikes; // similar to Like button, but says "Cool"
     private int numDislikes; // similar to Like button, but says "Dislike"
-  
-
     
     /**
       describe this constructor
+      @param _restaurant for the specific restaurant the user desires
       @param _reviewScore sets the review score of this review
-      @param
-      @param
-      @param
-      @param
+      @param _reviewTitle for the title the user associates with the restaurant
+      @param _reviewBody for the body the user associates with the restaurant 
+      @param _user for the user thats rating the restaurant
     */
     public FoodReview(Restaurant _restaurant, double _reviewScore, String _reviewTitle, String _reviewBody, User _user)
     {
+      restaurant = _restaurant;
+      reviewScore = _reviewScore;
+      reviewTitle = _reviewTitle;
+      reviewBody = _reviewBody;
+      user = _user;
+        
         // set instance var values using parameters
         // TO DO
-        reviewScore = _reviewScore;
     }
+
 
     // accessors and mutators go here
     /**
@@ -53,4 +57,23 @@ public class FoodReview
     public void setReviewScore(double _reviewScore){
       reviewScore = _reviewScore;
     }
+
+    
+    /**
+    @return returns the restaurant of a specific food review
+    */
+    public Restaurant getRestaurant(){
+      return restaurant;
+    }
+    /**
+    @param _restaurant  for the specific restaurant the user desires
+    */
+    public void setRestaurant(String _retaurant){
+      restaurant = resaurant;
+    }
+  
+    
+  
+  
+
 }
