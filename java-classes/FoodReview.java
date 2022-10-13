@@ -18,13 +18,11 @@ public class FoodReview
     private int numFunnyLikes; // similar to Like button, but says "Funny"
     private int numCoolLikes; // similar to Like button, but says "Cool"
     private int numDislikes; // similar to Like button, but says "Dislike"
-  
-
     
     /**
       describe this constructor
       @param _restaurant for the specific restaurant the user desires
-      @param _reviewScore for the review score the user associates with the restaurant
+      @param _reviewScore sets the review score of this review
       @param _reviewTitle for the title the user associates with the restaurant
       @param _reviewBody for the body the user associates with the restaurant 
       @param _user for the user thats rating the restaurant
@@ -40,6 +38,26 @@ public class FoodReview
         // set instance var values using parameters
         // TO DO
     }
+
+
+    // accessors and mutators go here
+    /**
+      double getReviewScore()
+      accessor method for reviewScore
+      @return get the review score of this review
+    */
+    public double getReviewScore(){
+      return reviewScore;
+    }
+    /**
+      void setReviewScore(double _reviewScore)
+      mutator method for reviewScore
+		  @param _reviewScore sets the review score of this review
+    */
+    public void setReviewScore(double _reviewScore){
+      reviewScore = _reviewScore;
+    }
+
     
     /**
     @return returns the restaurant of a specific food review
@@ -55,31 +73,6 @@ public class FoodReview
     }
   
     
-  
-  
-   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
 
