@@ -41,12 +41,15 @@ public class FoodReview
         // TO DO
     }
     
-    
+    /**
+    @return returns the restaurant of a specific food review
+    */
     public Restaurant getRestaurant(){
       return restaurant;
     }
-    
-    
+    /**
+    @param _restaurant  for the specific restaurant the user desires
+    */
     public void setRestaurant(String _retaurant){
       restaurant = resaurant;
     }
