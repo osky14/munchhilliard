@@ -27,17 +27,34 @@ public class FoodReview
       @param _reviewBody for the body the user associates with the restaurant 
       @param _user for the user thats rating the restaurant
     */
-    public FoodReview(Restaurant _restaurant, double _reviewScore, String _reviewTitle, String _reviewBody, User _user)
+    public FoodReview(Restaurant _restaurant, double _reviewScore, String _reviewTitle, String _reviewBody, User _user, int _numHeartLikes)
     {
       restaurant = _restaurant;
       reviewScore = _reviewScore;
       reviewTitle = _reviewTitle;
       reviewBody = _reviewBody;
       user = _user;
+	numHeartLikes = _numHeartLikes;
         
         // set instance var values using parameters
         // TO DO
     }
+	
+	public int getNumHeartLikes() {
+		return numHeartLikes;
+	}
+	 /**
+      int getNumHeartLikes()
+      accessor method for numHeartLikes
+      @return get the number of hearts/likes
+    */
+	public int setNumHeartLikes(int _numHeartLikes) {
+		numHeartLikes = _numHeartLikes;
+		
+	}
+	
+	
+	
 
 
     // accessors and mutators go here
@@ -69,7 +86,7 @@ public class FoodReview
     @param _restaurant  for the specific restaurant the user desires
     */
     public void setRestaurant(String _retaurant){
-      restaurant = resaurant;
+      restaurant = _resaurant;
     }
   
     
