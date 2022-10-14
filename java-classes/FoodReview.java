@@ -52,7 +52,11 @@ public class FoodReview
 		numHeartLikes = _numHeartLikes;
 		
 	}
-	
+	    /**
+      void setNumHeartLikes(int _numHeartLikes)
+      mutator method for numHeartLikes
+		  @param _numHeartLikes sets the number of likes
+    */
 	
 	
 
