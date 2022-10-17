@@ -38,6 +38,29 @@ public class FoodReview
         // set instance var values using parameters
         // TO DO
     }
+    
+     /**
+      int getNumHeartLikes()
+      accessor method for numHeartLikes
+      @return get the number of hearts/likes
+    */
+	
+	public int getNumHeartLikes() {
+		return numHeartLikes;
+	}
+	
+	 /**
+      void setNumHeartLikes()
+      mutator method for numHeartLikes
+    */
+	
+	public int setNumHeartLikes() {
+		numHeartLikes++;
+		
+	}
+	   
+	
+	
 
 
     // accessors and mutators go here
@@ -69,7 +92,7 @@ public class FoodReview
     @param _restaurant  for the specific restaurant the user desires
     */
     public void setRestaurant(String _retaurant){
-      restaurant = resaurant;
+      restaurant = _resaurant;
     }
     
     /**
