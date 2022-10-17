@@ -71,8 +71,23 @@ public class FoodReview
     public void setRestaurant(String _retaurant){
       restaurant = resaurant;
     }
-  
     
+    /**
+      * String getReviewTitle()
+      * accessor method for reviewTitle
+      * @return get the review title of this review
+    */
+    public String getReviewTitle(){
+      return reviewTitle;
+    }
+    /**
+      * void setReviewTitle(String _reviewTitle)
+      * mutator method for reviewTitle
+      * @param _reviewTitle sets the review title of this review
+    */
+    public void setReviewTitle(String _reviewTitle){
+      reviewTitle = _reviewTitle;
+    }
   
   
 
