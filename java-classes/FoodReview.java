@@ -87,10 +87,29 @@ public class FoodReview
      mutator method for reviewerIcon
      @param _reviewerIcon sets  the icon for reviewer
      */
-
      void setReviewerIcon(String _reviewerIcon){
      reviewerIcon = _reviewerIcon;
      }
+     
+     
+         /**
+      * String getReviewTitle()
+      * accessor method for reviewTitle
+      * @return get the review title of this review
+    */
+    public String getReviewTitle(){
+      return reviewTitle;
+    }
+    
+    
+    /**
+      * void setReviewTitle(String _reviewTitle)
+      * mutator method for reviewTitle
+      * @param _reviewTitle sets the review title of this review
+    */
+    public void setReviewTitle(String _reviewTitle){
+      reviewTitle = _reviewTitle;
+    }
   
     
   
