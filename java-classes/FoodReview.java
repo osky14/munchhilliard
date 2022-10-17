@@ -18,6 +18,7 @@ public class FoodReview
     private int numFunnyLikes; // similar to Like button, but says "Funny"
     private int numCoolLikes; // similar to Like button, but says "Cool"
     private int numDislikes; // similar to Like button, but says "Dislike"
+    private String reviewerIcon;
     
     /**
       describe this constructor
@@ -71,23 +72,27 @@ public class FoodReview
     public void setRestaurant(String _retaurant){
       restaurant = resaurant;
     }
+	
+    /**
+    String getReviewerIcon()
+    accessor method for reviewerIcon
+    @return get the reviewer's icon
+    */
+     public String getReviewerIcon(){
+     return reviewerIcon;
+     }
+	
+     /**
+     void setReviewerIcon(String _reviewerIcon)
+     mutator method for reviewerIcon
+     @param _reviewerIcon sets  the icon for reviewer
+     */
+
+     void setReviewerIcon(String _reviewerIcon){
+     reviewerIcon = _reviewerIcon;
+     }
+  
     
-    /**
-      * String getReviewTitle()
-      * accessor method for reviewTitle
-      * @return get the review title of this review
-    */
-    public String getReviewTitle(){
-      return reviewTitle;
-    }
-    /**
-      * void setReviewTitle(String _reviewTitle)
-      * mutator method for reviewTitle
-      * @param _reviewTitle sets the review title of this review
-    */
-    public void setReviewTitle(String _reviewTitle){
-      reviewTitle = _reviewTitle;
-    }
   
   
 
