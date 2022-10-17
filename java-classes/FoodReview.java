@@ -88,6 +88,21 @@ public class FoodReview
     public void setReviewTitle(String _reviewTitle){
       reviewTitle = _reviewTitle;
     }
+	
+	
+	/**
+	@return gets the number of heart likes as an int
+	*/
+	public int getNumHeart() {
+	return numHeartLikes;
+	}
+	
+	/**
+	@param is a setter method, but increases the heart like count by 1, does not need an argument
+	*/
+	public void settNumHeart() {
+	numHeartLikes ++;
+	}
   
   
 
