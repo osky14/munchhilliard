@@ -17,7 +17,8 @@ public class FoodReview
     private int numUsefulLikes; // similar to Like button, but says "Useful"
     private int numFunnyLikes; // similar to Like button, but says "Funny"
     private int numCoolLikes; // similar to Like button, but says "Cool"
-    private int numDislikes; // similar to Like button, but says "Dislike"
+    private int 
+    ; // similar to Like button, but says "Dislike"
     
     /**
       describe this constructor
@@ -91,17 +92,17 @@ public class FoodReview
 	
 	
 	/**
-	@return gets the number of heart likes as an int
+	@return gets the number of dislikes as an int
 	*/
-	public int getNumHeart() {
-	return numHeartLikes;
+	public int getNumDislikes() {
+	return numDislikes;
 	}
 	
 	/**
-	@param is a setter method, but increases the heart like count by 1, does not need an argument
+	@param is a setter method, but increases the dislike count by 1, does not need an argument
 	*/
-	public void settNumHeart() {
-	numHeartLikes ++;
+	public void setNumDislikes() {
+	numDislikes ++;
 	}
   
   
