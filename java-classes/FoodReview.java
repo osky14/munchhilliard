@@ -133,6 +133,21 @@ public class FoodReview
     public void setReviewTitle(String _reviewTitle){
       reviewTitle = _reviewTitle;
     }
+	
+	
+	/**
+	@return gets the number of dislikes as an int
+	*/
+	public int getNumDislikes() {
+	return numDislikes;
+	}
+	
+	/**
+	@param is a setter method, but increases the dislike count by 1, does not need an argument
+	*/
+	public void setNumDislikes() {
+	numDislikes ++;
+	}
   
     
   
