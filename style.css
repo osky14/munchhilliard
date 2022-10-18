@@ -25,11 +25,11 @@ h2{
   text-align:center;
   border-top:2px solid white;
   padding: 15px;
-  margin: 15px 5px 0px 5px;
+  margin: 15px 0px 0px 0px;
   color: #F0F8FF;
   font-family: Verdana, Geneva, sans-serif;
   background-color: rgba(0,0,0,0.5); /* black but 50% opacity */
-  border-radius: 50px 50px 0px 0px; /* rounded top corners */
+  border-radius: 10px 10px 0px 0px; /* rounded top corners */
 }
 
 
@@ -52,5 +52,5 @@ p{
   color: white;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   background-color: rgba(0,0,0,0.5); /* black but 50% opacity */
-  border-radius: 0px 0px 50px 50px; /* rounded bottom corners */
+  border-radius: 0px 0px 10px 10px; /* rounded bottom corners */
 }
