@@ -1,13 +1,10 @@
 /* style.css */
 
 body{
-  background-color:#001030;
-  border-left:25px solid #b2daf8;
-  border-right:25px solid #b2daf8;
-  border-top: 15px solid #083454;
-  border-bottom: 15px solid #083454;
-  padding: 10px;
+  background-color:#445577;
+  padding: 25px;
   margin: 0px;
+  color:#F0F8FF;
 }
 div#logo{
   text-align:center;
