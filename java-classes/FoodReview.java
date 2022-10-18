@@ -17,8 +17,7 @@ public class FoodReview
     private int numUsefulLikes; // similar to Like button, but says "Useful"
     private int numFunnyLikes; // similar to Like button, but says "Funny"
     private int numCoolLikes; // similar to Like button, but says "Cool"
-    private int 
-    ; // similar to Like button, but says "Dislike"
+    private int numDislikes; // similar to Like button, but says "Dislike"
     
     /**
       describe this constructor
