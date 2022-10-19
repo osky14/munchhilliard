@@ -148,7 +148,26 @@ public class FoodReview
 	public void setNumDislikes() {
 	numDislikes ++;
 	}
-  
+	
+
+     /**
+      * String getReviewBody()
+      * accessor method for reviewBody
+      * @return get the body the of the review
+    */
+    public String getReviewBody(){
+      return reviewBody;
+    }
+    
+    
+    /**
+      * void setReviewBody(String _reviewBody)
+      * mutator method for reviewBody
+      * @param _reviewBody sets the body of the review
+    */
+    public void setReviewTitle(String _reviewBody){
+      reviewBody = _reviewBody;
+    }
     
   
   
