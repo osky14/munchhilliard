@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 
 /**
-  describe this class
+  this class allows a user to add or modify reviews for a restaurant.
 */
 public class FoodReview
 {
@@ -13,214 +13,163 @@ public class FoodReview
     private String reviewerName;
     private User user;
     private LocalDate timestamp;
-    private int numOfHeartLikes; // traditional Like button
+    private int numHeartLikes; // traditional Like button
     private int numUsefulLikes; // similar to Like button, but says "Useful"
     private int numFunnyLikes; // similar to Like button, but says "Funny"
     private int numCoolLikes; // similar to Like button, but says "Cool"
     private int numDislikes; // similar to Like button, but says "Dislike"
-  
-
+    private String reviewerIcon;
     
     /**
       describe this constructor
-      @param
-      @param
-      @param
-      @param
-      @param
+      @param _restaurant for the specific restaurant the user desires
+      @param _reviewScore sets the review score of this review
+      @param _reviewTitle for the title the user associates with the restaurant
+      @param _reviewBody for the body the user associates with the restaurant 
+      @param _user for the user thats rating the restaurant
     */
     public FoodReview(Restaurant _restaurant, double _reviewScore, String _reviewTitle, String _reviewBody, User _user)
     {
+      restaurant = _restaurant;
+      reviewScore = _reviewScore;
+      reviewTitle = _reviewTitle;
+      reviewBody = _reviewBody;
+      user = _user;
+        
         // set instance var values using parameters
         // TO DO
     }
-
-    // accessors and mutators here
-
-    /**
-      returns the number of useful likes on the review
-      
-    */
-    public int getUsefulLikes()
-    {
-      
-      return 0; // TO DO
-    }
-  
-    /**
-      adds one useful like for the review
-    */ 
-    public void addUsefulLike(){
-      // TO DO
-    }
     
-    /** 
-      sets the number of heart likes on the review
-      @Param int newnumOfHeartLikes - first numerical value for the numOfHeartLikes
+     /**
+      int getNumHeartLikes()
+      accessor method for numHeartLikes
+      @return get the number of hearts/likes
     */
-    public void setnumOfHeartLikes(int newnumOfHeartLikes){  
-    this.numOfHeartLikes = newnumOfHeartLikes;
-    } 
-    /** 
-      returns the number of heart likes on the review 
-      @return numOfHeartLikes - Total number of HeartLikes
+	
+	public int getNumHeartLikes() {
+		return numHeartLikes;
+	}
+	
+	 /**
+      void setNumHeartLikes()
+      mutator method for numHeartLikes
     */
-    public int getHeartLikes(){
-      return numOfHeartLikes;
-    }
-  
-  
-  
-    /**
-      adds one heart like for the review
-    */ 
-    public void addHeartLike(){
-      // TO DO
-    } 
-  
-    /**
-      returns the number of funny likes
-      
-    */  
-    public int getFunnyLikes()
-    {
-      
-      return 0; // TO DO
-    }
-  
-    /**
-      
-    */ 
-    public void addFunnyLike(){
-      // TO DO
-    } 
+	
+	public int setNumHeartLikes() {
+		numHeartLikes++;
+		
+	}
+	   
+	
+	
 
+
+    // accessors and mutators go here
     /**
-      retuns the number of cool likes
-      
+      double getReviewScore()
+      accessor method for reviewScore
+      @return get the review score of this review
     */
-    public int getCoolLikes()
-    {
-      return 0; // TO DO
+    public double getReviewScore(){
+      return reviewScore;
     }
-  
     /**
-      
-    */ 
-    public void addCoolLike(){
-      // TO DO
-    } 
-
-    /**
-      retuns the number of dislikes
-      
+      void setReviewScore(double _reviewScore)
+      mutator method for reviewScore
+		  @param _reviewScore sets the review score of this review
     */
-   /**
-   * returns number of Dislikes 
-   *
-   * @return number of dislikes
-   *
-   *
-   */
-   public int getDislikes(){
-    return numDislikes; 
-  }
-
-    /**
-    *
-    *adds one to number of dislikes
-    *
-    *
-    *
-    */
-    public void addDislike(){
-      numDislikes += 1;
-  }
+    public void setReviewScore(double _reviewScore){
+      reviewScore = _reviewScore;
+    }
 
     
     /**
-    returns the number of Sad Likes
-    
+    @return returns the restaurant of a specific food review
     */
-    public int getNumSadLikes(){
-      return 0; // TO DO
+    public Restaurant getRestaurant(){
+      return restaurant;
     }
-  
     /**
-      
-    */ 
-    public void addSadLike(){
-      // TO DO
-    } 
-  
-  
-  
-    /**
-      returns the date that the review was posted
-      
+    @param _restaurant  for the specific restaurant the user desires
     */
-    public LocalDate getTimestamp()
-    {
-      return 0; // TO DO
+    public void setRestaurant(String _retaurant){
+      restaurant = _resaurant;
     }
-
-  /**
-   returns the review score that was given to the restaurant.
-   
-
-  */
-  public double getReviewScore(){
-    return 0; // TO DO
-  }
-  
-  /**
-   returns the Title for the review written.
-   
-  
-  */
-  public String getReviewTitle(){
-    return ""; // TO DO
-  }
-  
-
-  /**
-  returns the body of the review.
-  */
-  public String getReviewBody(){
-    return ""; // TO DO
-  }
-
-  /**
-   returns the title of the review.
-   
-
-  */
-  public String getReviewTitle(){
-    return ""; // TO DO
-  }
-
-  /**
-    returns the body of the review.
-    
-   */
-  public String getReviewBody(){
-    return ""; // TO DO
-  }
-
-   /**
-    returns the name of the reviewer.
-    
-
-   */
-   public String getName(){
-     return ""; // TO DO
-   }
-  
+	
     /**
-      returns the user who created the review
-      
-    */ 
-    public User getUser(){
-      return null; // TO DO
-    } 
+    String getReviewerIcon()
+    accessor method for reviewerIcon
+    @return get the reviewer's icon
+    */
+     public String getReviewerIcon(){
+     return reviewerIcon;
+     }
+	
+     /**
+     void setReviewerIcon(String _reviewerIcon)
+     mutator method for reviewerIcon
+     @param _reviewerIcon sets  the icon for reviewer
+     */
+     void setReviewerIcon(String _reviewerIcon){
+     reviewerIcon = _reviewerIcon;
+     }
+     
+     
+         /**
+      * String getReviewTitle()
+      * accessor method for reviewTitle
+      * @return get the review title of this review
+    */
+    public String getReviewTitle(){
+      return reviewTitle;
+    }
+    
+    
+    /**
+      * void setReviewTitle(String _reviewTitle)
+      * mutator method for reviewTitle
+      * @param _reviewTitle sets the review title of this review
+    */
+    public void setReviewTitle(String _reviewTitle){
+      reviewTitle = _reviewTitle;
+    }
+	
+	
+	/**
+	@return gets the number of dislikes as an int
+	*/
+	public int getNumDislikes() {
+	return numDislikes;
+	}
+	
+	/**
+	@param is a setter method, but increases the dislike count by 1, does not need an argument
+	*/
+	public void setNumDislikes() {
+	numDislikes ++;
+	}
+	
+
+     /**
+      * String getReviewBody()
+      * accessor method for reviewBody
+      * @return get the body the of the review
+    */
+    public String getReviewBody(){
+      return reviewBody;
+    }
+    
+    
+    /**
+      * void setReviewBody(String _reviewBody)
+      * mutator method for reviewBody
+      * @param _reviewBody sets the body of the review
+    */
+    public void setReviewTitle(String _reviewBody){
+      reviewBody = _reviewBody;
+    }
+    
+  
+  
+
 }
