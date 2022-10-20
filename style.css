@@ -54,3 +54,8 @@ p{
   background-color: rgba(0,0,0,0.5); /* black but 50% opacity */
   border-radius: 0px 0px 10px 10px; /* rounded bottom corners */
 }
+
+img {
+  max-width:50px;
+  min-width:50px;
+}
