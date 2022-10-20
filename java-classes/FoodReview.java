@@ -73,7 +73,7 @@ public class FoodReview
 		return numFunnyLikes;
 	}
 	
-	public int setNumFunnyLikes(){
+	public void setNumFunnyLikes(){
 		numFunnyLikes++;
 	}
 	
