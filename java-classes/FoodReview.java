@@ -65,6 +65,18 @@ public class FoodReview
 
 
     // accessors and mutators go here
+	/**
+	@return returns the numeber of funny likes on the review
+	@param no parameter, increases number of funny likes by 1
+	*/
+	public int getNumFunnyLikes(){
+		return numFunnyLikes;
+	}
+	
+	public void setNumFunnyLikes(){
+		numFunnyLikes++;
+	}
+	
     /**
       double getReviewScore()
       accessor method for reviewScore
