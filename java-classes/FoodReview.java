@@ -192,13 +192,13 @@ public class FoodReview
 		return numUsefulLikes;
 	}
   /**
-      * void setNumUsefulLikes(String _numUsefulLikes)
+      * void setNumUsefulLikes()
       * mutator method for numUsefulLikes
       * @param _numUsefulLikes sets the number of useful like
     */
-    public void setNumUsefulLikes(String _numUsefulLikes){
-    numUsefulLikes = numUsefulLikes + 1;
-      numUsefulLikes = _numUsefulLikes;
+    public void setNumUsefulLikes(){
+    numUsefulLikes++;
+
     }
 
 }
