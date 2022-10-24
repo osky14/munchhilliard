@@ -196,7 +196,8 @@ public class FoodReview
       * mutator method for numUsefulLikes
       * @param _numUsefulLikes sets the number of useful like
     */
-    public void setReviewTitle(String _numUsefulLikes){
+    public void setNumUsefulLikes(String _numUsefulLikes){
+    numUsefulLikes = numUsefulLikes + 1;
       numUsefulLikes = _numUsefulLikes;
     }
 
