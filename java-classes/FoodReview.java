@@ -171,6 +171,7 @@ public class FoodReview
       return reviewBody;
     }
     
+	
     
     /**
       * void setReviewBody(String _reviewBody)
@@ -181,7 +182,23 @@ public class FoodReview
       reviewBody = _reviewBody;
     }
     
-  
-  
+  /**
+      int getUsefulLikes()
+      accessor method for numUsefulLikes
+      @return get the number of useful likes
+    */
+	
+	public int getNumUsefulLikes() {
+		return numUsefulLikes;
+	}
+  /**
+      * void setNumUsefulLikes()
+      * mutator method for numUsefulLikes
+      * @param _numUsefulLikes sets the number of useful like
+    */
+    public void setNumUsefulLikes(){
+    numUsefulLikes++;
+
+    }
 
 }
