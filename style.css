@@ -6,7 +6,7 @@ body{
   margin: 0px;
   color:#F0F8FF;
 }
-div#logo{
+div#logoContainer{
   text-align:center;
 }
 div.reviewContainer{
@@ -56,6 +56,9 @@ p{
 }
 
 img {
-  max-width:50px;
-  min-width:50px;
+  max-width:150px;
+  max-height:150px;
+}
+img#logo {
+  width:300px;
 }
